@@ -1,40 +1,48 @@
 {
   "expo": {
-    "name": "missileDodge",
-    "slug": "missileDodge",
+    "name": "Missile Dodge Game",
+    "slug": "missile-dodge-game",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#87CEEB"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.missiledodge.game"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#87CEEB"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.missiledodge.game"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
+    "plugins": [
+      "expo-av"
+    ],
     "extra": {
       "eas": {
-        "projectId": "af8239d3-9d9f-4783-9b50-c91cb6ac8393"
+        "projectId": "missile-dodge-game"
       }
     },
+    "owner": "missiledodge",
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/af8239d3-9d9f-4783-9b50-c91cb6ac8393"
+      "url": "https://u.expo.dev/missile-dodge-game"
     }
   }
 }
