@@ -23,7 +23,13 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#87CEEB"
       },
-      "package": "com.missiledodge.game"
+      "package": "com.missiledodge.game",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -32,17 +38,17 @@
     "plugins": [
       "expo-av"
     ],
-    "extra": {
-      "eas": {
-        "projectId": "missile-dodge-game"
-      }
-    },
-    "owner": "missiledodge",
     "runtimeVersion": {
       "policy": "appVersion"
     },
+    "extra": {
+      "eas": {
+        "projectId": "dacad858-ec78-42a0-9ffb-6c25511ac927"
+      }
+    },
+    "owner": "imyourjack",
     "updates": {
-      "url": "https://u.expo.dev/missile-dodge-game"
+      "url": "https://u.expo.dev/dacad858-ec78-42a0-9ffb-6c25511ac927"
     }
   }
 }
